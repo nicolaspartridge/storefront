@@ -15,12 +15,12 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Setsail</title>
+        <title>Storefront</title>
         <meta name="description" content="Setsail" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={s.container}>
-        <h1 className={s.title}>Setsail Interview Project</h1>
+        <h1 className={s.title}>Sample Storefront</h1>
         <p className={s.subtitle}>By Nicolas Partridge</p>
         <Link href="/pricing"><div className={s.button}>Enter <ArrowNarrowRightIcon className='w-6 ml-2'/></div></Link>
       </div>
